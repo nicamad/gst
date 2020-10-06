@@ -1,0 +1,50 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+  <title>Form Exercise</title>
+</head>
+<body>
+<form>
+  <label for="firstName">First Name: </label>
+  <input id="firstName" type="text" name="firstName" placeholder="John" required>
+  <label for="lastName">Last Name: </label>
+  <input id="lastName" type="text" name="lastName" placeholder="Smith" required>
+  <br>
+  <label for="gender">Male</label>
+  <input id="gender" type="radio" name="gender">
+  <label>Female</label>
+  <input id="gender" type="radio" name="gender">
+  <label>Other</label>
+  <input id="gender" type="radio" name="gender">
+  <br>
+  <label for="email">Email: </label>
+  <input id="email" type="email" placeholder="your email" required>
+  <label for="password" pattern="{5,10}" title="5 to 10 characters" required>Password: </label>
+  <input id="password" type="password" required>
+  <br>
+  <label for="birthday">Birthday: </label>
+  <select id="birthday" name="month" required>
+    <option>Month</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+  </select>
+  <select id="birthday" name="day" required>
+    <option>Day</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+  </select>
+  <select id="birthday" name="year" required>
+    <option>Year</option>
+    <option>1999</option>
+    <option>2000</option>
+    <option>3333</option>
+  </select>
+  <br>
+ <label for="condition">I agree to the terms and conditions</label><input id="condition" type="checkbox">
+  <br>
+  <button>Submit</button>
+</form>
+</body>
+</html>
